@@ -1,0 +1,70 @@
+.Textoalinhado {
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rebeccapurple;
+}
+
+.Textoalinhado li {
+    margin: 0 50px;
+    font-size: 30px;
+
+}
+
+
+body {
+    background-color: blanchedalmond;
+}
+
+.Videoprincipal {
+    display: block;
+    margin: 0 auto;
+    width: 1500px;
+    height: 750px;
+    border-radius: 10px;
+}
+
+
+.margin {
+    margin-top: 10px;
+}
+
+
+
+
+figcaption {
+    font-size: 30px;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.coluna {
+    width: 50%;
+    float: left;
+}
+
+.container {
+    display: flex;
+}
+
+.box1,
+.box2 {
+    width: 50%;
+
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.Textocentro {
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+#Título {
+    font-size: 50px;
+    color: rebeccapurple
+}
