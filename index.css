@@ -1,18 +1,32 @@
-.Textoalinhado {
-    text-align: center;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+nav {
     background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
 }
 
-.Textoalinhado li {
-    margin: 0 50px;
-    font-size: 30px;
-
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
 }
 
+
+nav ul li {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li:not(:nth-last-child(1)) {
+    border-right: 1px solid rgb(0, 0, 0);
+}
 
 body {
     background-color: blanchedalmond;
@@ -38,6 +52,7 @@ figcaption {
     font-size: 30px;
     color: rebeccapurple;
     text-align: center;
+    background-color: rgb(178, 197, 8);
 }
 
 .coluna {
